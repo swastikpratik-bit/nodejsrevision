@@ -10,7 +10,7 @@ const app = express();
 
 // Mongoose-->
 mongoose
-    .connect("mongodb+srv://swastiksingh368:IEa1avoK1xQUuvrK@cluster0.k0vd22v.mongodb.net/learning_backend")
+    .connect("")
     .then(() => console.log("Database Connect"))
     .catch((e) => console.log(e))
 
